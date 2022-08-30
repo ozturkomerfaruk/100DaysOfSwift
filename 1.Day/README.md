@@ -11,4 +11,4 @@ You can put an underline. This does not affect the code and makes it useful for 
 
 4. The term for constant variables let
 
-<img width="655" alt="Screen Shot 2022-08-30 at 18 59 07" src="https://user-images.githubusercontent.com/56068905/187485254-ac2794c8-e0a3-4944-9d24-41ffebe0e963.png">
+<img width="548" alt="Screen Shot 2022-08-30 at 19 02 09" src="https://user-images.githubusercontent.com/56068905/187485508-f2cfcf40-452d-4b3e-92c4-a1c6567c26d2.png">
