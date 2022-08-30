@@ -1,10 +1,12 @@
 # Day 1
-1. Swift ile başlangıç yapılıyor. Değişkenler tanımlanıyor. Bunun için açık playground uzantılı bir dosyada kodları yazıyoruz.
+1. Getting started with Swift. Variables are defined. For this, we write the codes in a file with an open playground extension.
 
-2. Mesela bir int girerken büyük bir sayı tanımlıyorsun.
+2. For example, you are defining a large number when entering an int.
 
 **var population = 8_000_000**
 
-şeklinde alt çizgi koyabilirsin. Bu koda etki etmiyor ve senin kullanışlı yazmanı sağlıyor. Aynı zamanda option tuşuna basarak population'ın üzerine geldiğinde göreceksin ki bu değer Int tipinde bir değişken. String değil. Bu kullanım kolaylığı için böyle bir şey yapılmış.
+You can put an underline. This does not affect the code and makes it useful for you to write. At the same time, when you press the option key and hover over the population, you will see that this value is an Int type variable. It's not a string. It's made something like this for ease of use.
 
-3. 
+3. There are a few things to consider when writing Multi-Lines code. One of them must start and end with """ 3 times. If you want to write side by side, not one under the other, but if you want to put them one after the other to appeal to the eye, you must end with / in each line.
+
+4. The term for constant variables let
