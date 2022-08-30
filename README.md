@@ -1,13 +1,13 @@
-# En Sağlam Swift Kursu
-Başlık çok iddalı oldu ancak tüm samimiyetimle diyorum ki öğrenebileceğiniz mükemmel bir kaynak. Swift ile ilgili kaynak araştırması yaparken karşıma çıkan en sağlam kursu sizlere paylaşmak istiyorum.
+# The Most Robust Swift Course
+The title was very ambitious, but I can honestly say that it is an excellent resource you can learn from. I would like to share with you the most robust course I have come across while researching resources on Swift.
 
-Burada 100 gün boyunca ücretsiz bir şekilde döküman dosyaları, video içerikleri ve ödevler eşliğinde kendinizi geliştirme fırsatı elde ediyorsunuz. Burada iki kural bulunmaktadır.
+Here you get the opportunity to improve yourself with free document files, video content and homework for 100 days. There are two rules here.
 
-1. Her Gün en az 1 saat Swift ile zaman geçirmen
-2. Ve insanlara sosyal medya üzerinde sürecini paylaşman
+1. You will spend at least 1 hour with Swift every day.
+2. And you will share your process on social media to people.
 
-Ben de bu süreci burada sizlerle paylaşmak istiyorum. Bunun için bir tane Github Repo oluşturdum ve orada gün gün paylaşacağım kodları. MackDown ile kodların açıklamalarını yazmaya gayret gösterdim. Böylece sizlerde bakabilirsiniz.
+I wanted to share this process with you here. For this, I created a Github Repo and shared the codes there day by day. I tried to write the descriptions of the codes with MackDown. So you can have a look.
 
-Yazdığım içeriklere Türkçe ulaşmak için [tıklayabilirsiniz](http//www.ozturkomerfaruk.com).
+You can click [here](http//www.ozturkomerfaruk.com) to access Turkish explanations.
 
-Yazdığım içeriklere İngilizce ulaşmak için [tıklayabilirsiniz](http//www.ozturkomerfaruk.com).
+Also, if you want to check out my Medium article, you can find it [here](http//www.ozturkomerfaruk.com).
