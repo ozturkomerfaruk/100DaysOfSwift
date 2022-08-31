@@ -20,5 +20,6 @@ Swift de pek değişkenleri değiştirmeyi sevmez. Genellikle onları sabit tutm
 
 <img width="397" alt="image" src="https://user-images.githubusercontent.com/56068905/187639795-6af9dfba-d951-4c27-8de2-a6bd556607a2.png">
 
-5. String Methods
+5. String & Array Methods 
 
+<img width="714" alt="image" src="https://user-images.githubusercontent.com/56068905/187642427-4a160385-ad7d-4771-a7e8-bc56e99599e2.png">
