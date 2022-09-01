@@ -1,10 +1,10 @@
 # Day 8
 
-1. Struct Yapısı
+1. Struct Structure
 
 2. Property Observers
 
-Propery her değiştiğinde algılaması ve bunu ekrana bastırması için **didSet** kullanılır.
+**didSet** is used to detect every time the property changes and print it to the screen.
 
 You can also use **willSet** to take action before a property changes, but that is rarely used.
 
@@ -16,7 +16,7 @@ You can also use **willSet** to take action before a property changes, but that 
 
 4. Mutating Method
 
-Swift de pek değişkenleri değiştirmeyi sevmez. Genellikle onları sabit tutmaya çalışır. Eğer bir şeyi method içerisinde değiştirmek istiyorsanız bunu bildirmeniz gerekmektedir. Bunun için de çözüm gayet basittir.
+Swift doesn't like to change variables much either. She usually tries to keep them steady. If you want to change something in the method, you have to declare it. The solution for this is quite simple.
 
 <img width="397" alt="image" src="https://user-images.githubusercontent.com/56068905/187639795-6af9dfba-d951-4c27-8de2-a6bd556607a2.png">
 
