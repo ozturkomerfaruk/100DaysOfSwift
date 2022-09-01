@@ -2,32 +2,32 @@
 
 1. Handling Miss Data
 
-Dart kullanımında ki Null Safe olayıdır. Örneğin endPoint den gelen verinin null olma ihtimalidir. 
+It is the Null Safe event in Dart usage. For example, it is the probability that the data from the endPoint is null.
 
 2. Unwrapping optionals
 
-if let ile null olup olmadığı kontrol ediliyor.
+Checking for null with if let.
 
-Aynı zamanda guard let ile de bu işlem yapılıyor. Ancak guard let de sadece null ise buraya giriyor.
+At the same time, this process is done with guard let. However, guard let only enters here if it is null.
 
-Bu arada Swift de null kavramına nil deniliyormuş. Alışmam zaman alacak, kabul ediyorum.
+By the way, the concept of null in Swift is called nil. It will take time to get used to it, I admit.
 
 3. Force unwrapping
 
-Ne olursa olsun nil olmayacağını söz veriyorum demektir. Yani ben açıklamalardan öyle anladım. Yakında projeye başladığım zaman daha iyi anlarım.
+It means I promise it won't be nil no matter what. So that's what I understood from the descriptions. I will understand better when I start the project soon.
 
 4. Implicity unwrapped optionals
 
-Aynı mantık
+Same logic
 
 5. Nil Coalesing Operator
 
-Bu operator nil ise şunu yap demektir. Ancak burada parametre olarak alınan for: 'un ne olduğunu bilmiyorum. Anlamadım.
+If this operator is nil, it means do this. But I don't know what the for: is taken as a parameter here. I do not understand.
 
 <img width="805" alt="Screen Shot 2022-09-01 at 09 15 22" src="https://user-images.githubusercontent.com/56068905/187845684-cdd536ee-8f67-492b-b406-2d17fa351674.png">
 
 6. Optional Chaining
 
-Zincirleme mantığında gerçekten nil check kontrolüdür.
+In chaining logic it is really a nil check control.
 
 <img width="588" alt="Screen Shot 2022-09-01 at 09 18 41" src="https://user-images.githubusercontent.com/56068905/187845641-14964169-6232-4151-923c-63e33a33fc00.png">
