@@ -1,29 +1,29 @@
 # Day 2
 
-1. Array şeklinde Int, Double etc. değişken saklayabilirsin. Enumarated ile indexler ile saklayabilirsin.
+1. Array as Int, Double etc. You can store a variable. With Enumerated you can store it with indexes.
 
-2. Sets'de olaylar aynı Array gibidir. Ancak bütün karakterler unique olmalıdır.
+2. In Sets, events are just like Arrays. However, all characters must be unique.
 
-3. Tuple da olay biraz daha farklıdır. Bir Tuple'a veri ekleyemez ya da kaldıramazsınız. Sabittirler. Tipini değiştiremezsiniz. Sadece indexine erişip okumanıza izin verir. Ya da o tipte bir değişiklik yapabilmenize izin verir.
+3. Tuple is a little different. You cannot add or remove data from a tuple. They are fixed. You cannot change its type. It only allows you to access and read the index. Or it allows you to make a change of that type.
 
 <img width="502" alt="image" src="https://user-images.githubusercontent.com/56068905/187490600-50e925d2-a987-4b5d-9e80-f2f33941b463.png">
 
 
 # Array vs Set vs Tuple
 
-Eğer sabit verileriniz var ve bunu her zaman kullanmak istiyorsanız **Tuple** kullanmalısınız.
+If you have constant data and you want to use it all the time you should use **Tuple**.
 
-Eğer bir dizi içerisinde birbirini tekrarlamayan ifadelere yer vermek istiyorsanız **Set** kullanmalısınız
+If you want to include non-repeating expressions in an array, you should use **Set**
 
-Eğer eklenen ögelerin sırasının bir önemi varsa ve istediğiniz gibi bir şeyler eklemek çıkarmak vs. istiyorsanız **Array** kullanmalısınız.
+If the order of the items added matters and you can add or remove things as you wish. you should use **Array**
 
 <img width="651" alt="image" src="https://user-images.githubusercontent.com/56068905/187491539-31cf528a-5d3d-4770-8eff-17532c883a0b.png">
 
-4. Dictionary kullanımı Flutter \ Dart dilindeki Map kullanımına benzerdir.
+4. Using Dictionary is similar to using Map in Flutter \ Dart.
 
 <img width="950" alt="image" src="https://user-images.githubusercontent.com/56068905/187493994-205314f7-efd2-42b7-b38e-9375b409dac7.png">
 
-5. Array, Set ve Dictionary'ler Collections olarak çağrılırlar. Eğer bir format vermeyip istenilen türde bir Collections yaratmak istiyorsanız tip vermek zorundasınız.
+5. Arrays, Sets, and Dictionaries are called Collections. If you want to create a Collections of the desired type without giving a format, you have to type it.
 
 <img width="370" alt="image" src="https://user-images.githubusercontent.com/56068905/187494964-30d86bfe-7123-47da-bffd-8e41db9889f5.png">
 
