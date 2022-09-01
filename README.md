@@ -8,6 +8,6 @@ Here you get the opportunity to improve yourself with free document files, video
 
 I wanted to share this process with you here. For this, I created a Github Repo and shared the codes there day by day. I tried to write the descriptions of the codes with MackDown. So you can have a look.
 
-You can click [here](http//www.ozturkomerfaruk.com) to access Turkish explanations.
+You can click [here](http//www.ozturkomerfaruk.com) to access Turkish explanations. this website is my blog page. You can follow me :)
 
 Also, if you want to check out my Medium article, you can find it [here](http//www.ozturkomerfaruk.com).
