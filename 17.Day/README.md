@@ -1,15 +1,15 @@
 # Day 17
 
-1. Bu resimleri diğer bir sayfaya geçirerek detaylı bir şekilde görmek istiyoruz. Bunun için yapmamız gereken çok basit.
+1. We would like to see these pictures in detail by transferring them to another page. What we need to do for this is very simple.
 
-2. imageView ekliyoruz. Eklediğimiz imageView'a ulaşmak için bir tane DetailViewController oluşturuyoruz. 
+2. We add imageView. We create a DetailViewController to reach the imageView we added.
 
 <img width="639" alt="image" src="https://user-images.githubusercontent.com/56068905/188128835-10778dee-0017-4bda-b194-de0d44d9b36c.png">
 
-3. Aynı zamanda viewWillAppear ve viewWillDisappear Navigator.Controller kullanarak AppBar'ı gizleyebiliyoruz ve resimler tam ekran olabiliyor.
+3. We can also hide AppBar using viewWillAppear and viewWillDisappear Navigator.Controller and images can be full screen.
 
-4. Detail'de ki sayfayı View'e bağlamak için aşağıda ki kodlar yazılıyor.
+4. The following codes are written to connect the page in Detail to the View.
 
 <img width="777" alt="image" src="https://user-images.githubusercontent.com/56068905/188129037-846d80d5-5cc0-40ed-8019-8a401ec5bc1c.png">
 
-pictures array'inde ki indexPath'e erişip Detail'de ki değişkene Constructor ile ulaşıp buradan, navigator push ile gönderiyoruz.
+We access the indexPath in the pictures array, reach the variable in Detail with Constructor, and send it from there with navigator push.
