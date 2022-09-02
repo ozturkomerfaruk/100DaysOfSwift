@@ -1,6 +1,6 @@
 # Day 18
 
-1. The project is finished.
+The First project has finished.
 
 The project was completed within the scope of the topics discussed between the 16th and 18th days.
 
