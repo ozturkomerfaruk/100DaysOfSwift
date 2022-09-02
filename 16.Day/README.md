@@ -27,3 +27,4 @@ As it can be understood from the return value, it will make the TableView work a
 indexPath represents the index of each row. We entered the name of each line as Picture on the Controller page. Now we use dequeueReusableCell to use.
 
 <img width="687" alt="image" src="https://user-images.githubusercontent.com/56068905/188062471-e02668b8-5bac-44fe-8bd9-78d02451bb5e.png">
+   
