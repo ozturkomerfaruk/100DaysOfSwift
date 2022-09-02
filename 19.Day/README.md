@@ -13,3 +13,4 @@ Ekrana görsel olarak bir şeyler konulsa bile, her şey kod ekranında değişt
 <img width="790" alt="image" src="https://user-images.githubusercontent.com/56068905/188222060-aa872920-c647-41ff-a0a1-bda7fac3446b.png">
 
 Burada bir renk seçildikten sonra **cgColor** eklenir.
+ 
