@@ -16,7 +16,5 @@ Projects / Topics                                                               
 ---                                                                                                                                                                          |---
 [Project 1](18.Day) - *Storm Viewer* <br/>(with challenges)                                         <br/><sub> View controllers, Storyboard, FileManager                               </sub> | ![image](https://user-images.githubusercontent.com/56068905/188148592-bcdb0efc-478c-49c0-8177-d8c20f8d3802.png) ![image](https://user-images.githubusercontent.com/56068905/188148648-0f291a52-2bda-4165-ba4e-7a335076273a.png) |
 |---
-[Project 2](21.Day) - *Guess The Flag* <br/>(with challenges)                                         <br/><sub> UIButton, CALayer, IBAction                                </sub> | ![image](![Simulator Screen Shot - iPhone 1-2](https://user-images.githubusercontent.com/56068905/188284499-3251c5b3-a665-45ed-aa5d-ccf8b4b45b22.png)
-) ![image](![Simulator Screen Shot - iPhone 1](https://user-images.githubusercontent.com/56068905/188284502-07e9cf7f-c58d-4562-bbe9-1f7d4dbeaa1e.png)
-) |
+[Project 2](21.Day) - *Guess The Flag* <br/>(with challenges)                                         <br/><sub> UIButton, CALayer, IBAction                                </sub> | ![Simulator Screen Shot - iPhone 1-2](https://user-images.githubusercontent.com/56068905/188284499-3251c5b3-a665-45ed-aa5d-ccf8b4b45b22.png) ![Simulator Screen Shot - iPhone 1](https://user-images.githubusercontent.com/56068905/188284502-07e9cf7f-c58d-4562-bbe9-1f7d4dbeaa1e.png)
 |---
