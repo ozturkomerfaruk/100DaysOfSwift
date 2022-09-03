@@ -15,3 +15,7 @@ https://ozturkomerfaruk.com/en-saglam-swift-kursu/
 Projects / Topics                                                                                                                                                            | Screenshots
 ---                                                                                                                                                                          |---
 [Project 1](18.Day) - *Storm Viewer* <br/>(with challenges)                                         <br/><sub> View controllers, Storyboard, FileManager                               </sub> | ![image](https://user-images.githubusercontent.com/56068905/188148592-bcdb0efc-478c-49c0-8177-d8c20f8d3802.png) ![image](https://user-images.githubusercontent.com/56068905/188148648-0f291a52-2bda-4165-ba4e-7a335076273a.png) |
+|---
+[Project 2](21.Day) - *Guess The Flag* <br/>(with challenges)                                         <br/><sub> UIButton, CALayer, IBAction                               </sub> | ![image](![Simulator Screen Shot - iPhone 13 - 2022-09-03 at 21 33 47](https://user-images.githubusercontent.com/56068905/188284316-84ed761d-3436-4782-994c-0e285af15115.png)
+) ![image](![Simulator Screen Shot - iPhone 13 - 2022-09-03 at 21 32 33](https://user-images.githubusercontent.com/56068905/188284325-b434bad9-8d6b-468a-a900-ab05af42b7a9.png)
+) |
