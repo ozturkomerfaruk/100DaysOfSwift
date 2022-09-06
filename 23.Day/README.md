@@ -3,6 +3,10 @@
 
 ***Önemli Bir Not:*** Açıkçası pek istediğim gibi yapamadım. Liste ekranında ki bayrakların boyutları çok kötü oldu. Bunlar nasıl ayarlanıyor, ne yazık ki bilmiyorum. Projeyi elimden geldiğince yapmaya çalıştım ama maalesef noksanlıklar canımı çok sıktı. Yardım etmek isteyen lütfen iletisim@ozturkomerfaruk.com adresine mail yazsın ya da burada Issues kısmına not olarak yazsın.
 
+## Ekran Videosu
+
+https://user-images.githubusercontent.com/56068905/188668682-f8831960-89f1-44af-9cf4-742ba5d2cc6d.mp4
+
 ## Ekran Tasarımı
 
 <img width="1148" alt="image" src="https://user-images.githubusercontent.com/56068905/188663972-e55f6cfb-14a2-4f4b-9067-ab86946b3839.png">
