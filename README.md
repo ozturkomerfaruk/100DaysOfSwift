@@ -23,5 +23,4 @@ Projects / Topics                                                               
 [Milestone: Projects 1-3](23.Day) - *Country Flags* <br/>(with challenges)                                         <br/>                    | ![Simulator Screen Shot - iPhone 1](https://user-images.githubusercontent.com/56068905/188669870-a544e284-12aa-4159-9656-859c762db1f9.png) ![Simulator Screen Shot - iPhone 1-2](https://user-images.githubusercontent.com/56068905/188669891-634b614d-4d3b-43ec-90d4-454bbd042c0c.png)
 |---
 [Project 4](26.Day) - *Easy Browser* <br/>(with challenges)                                         <br/><sub> WKWebView, Action sheets, UIToolbar, UIProgressView                   </sub> | ![Simulator Screen Shot - iPhone 1](https://user-images.githubusercontent.com/56068905/188885286-1f5595df-3d60-4716-93da-ba24c2e38131.png) ![Simulator Screen Shot - iPhone 1-2](https://user-images.githubusercontent.com/56068905/188885316-80b8d51a-979c-4513-a9e7-8ed6b913242f.png)
-
 |---
