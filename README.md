@@ -1,6 +1,6 @@
 # En Sağlam Swift Kursu
 
-Başlık çok iddia biliyorum. Ancak dürüstçe söyleyebilirim ki, öğrenebileceğiniz mükemmel bir kaynak. Swift ile ilgili kaynak araştırırken karşılaştığım en sağlam kursu sizlerle paylaşmak istiyorum.
+Başlık çok iddialı biliyorum. Ancak dürüstçe söyleyebilirim ki, öğrenebileceğiniz mükemmel bir kaynak. Swift ile ilgili kaynak araştırırken karşılaştığım en sağlam kursu sizlerle paylaşmak istiyorum.
 
 Burada 100 gün boyunca ücretsiz yazılı video içeriği, video ve ödevlerle kendinizi geliştirme fırsatı yakalarsınız.  Burada iki kural var.
 
@@ -25,3 +25,4 @@ Proje Konuları/ Konular                                                        
 |---
 [Proje 4](26.Day) - *Easy Browser* <br/>(with challenges)                                         <br/><sub> WKWebView, Action sheets, UIToolbar, UIProgressView                   </sub> | ![Simulator Screen Shot - iPhone 1](https://user-images.githubusercontent.com/56068905/188885286-1f5595df-3d60-4716-93da-ba24c2e38131.png) ![Simulator Screen Shot - iPhone 1-2](https://user-images.githubusercontent.com/56068905/188885316-80b8d51a-979c-4513-a9e7-8ed6b913242f.png)
 |---
+
