@@ -1,4 +1,4 @@
-# Day 7
+# 7. Gün
 
 6. *Shorthand Parameters* (**Important**)
 
