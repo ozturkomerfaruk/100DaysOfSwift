@@ -14,4 +14,3 @@ Diğer dillerden biraz farklı bir for kalıbı bulunmaktadır.
 5. Endless loop
 
 <img width="672" alt="image" src="https://user-images.githubusercontent.com/56068905/187525865-8640bbb5-a772-48e1-9f79-728b6cc8ad72.png">
-
