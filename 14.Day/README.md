@@ -1,6 +1,6 @@
-# Day 14
+# 14. Gün
 
-General Repitation.
+Genel Tekrar 2
 
 1. Functions
 
