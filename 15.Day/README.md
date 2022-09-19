@@ -1,6 +1,6 @@
-# Day 15
+# 15. Gün
 
-General Repitation
+Genel Tekrar 3
 
 1. Properties
 
