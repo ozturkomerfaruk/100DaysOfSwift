@@ -1,33 +1,33 @@
 # Day 12
 
-1. Handling Miss Data
+1. Kayıp Verileri İşleme
 
-It is the Null Safe event in Dart usage. For example, it is the probability that the data from the endPoint is null.
+Dart kullanımında Null Safe olayıdır. Örneğin, bitiş noktasından gelen verilerin boş olma olasılığıdır.
 
-2. Unwrapping optionals
+2. Paketi açma opsiyonelleri
 
-Checking for null with if let.
+if let ile null kontrol ediliyor.
 
-At the same time, this process is done with guard let. However, guard let only enters here if it is null.
+Aynı zamanda bu işlem guard let ile yapılır. Ancak guard, yalnızca null ise buraya girmesine izin verir.
 
-By the way, the concept of null in Swift is called nil. It will take time to get used to it, I admit.
+Bu arada, Swift'deki null kavramına nil denir. Buna alışmak zaman alacak, kabul ediyorum.
 
-3. Force unwrapping
+3. Paketi açmaya zorla
 
-It means I promise it won't be nil no matter what. So that's what I understood from the descriptions. I will understand better when I start the project soon.
+Ne olursa olsun sıfır olmayacağına söz veriyorum demektir. Yani açıklamalardan öyle anladım. Yakında projeye başladığımda daha iyi anlayacağım.
 
-4. Implicity unwrapped optionals
+4. Örtülü olmayan isteğe bağlı seçenekler
 
-Same logic
+aynı mantık
 
-5. Nil Coalesing Operator
+5. Nil Birleştirme Operatörü
 
-If this operator is nil, it means do this. But I don't know what the for: is taken as a parameter here. I do not understand.
+Bu operatör sıfır ise, bunu yap demektir. Ama burada for: parametresinin ne alındığını bilmiyorum. Anlamıyorum.
 
 <img width="805" alt="Screen Shot 2022-09-01 at 09 15 22" src="https://user-images.githubusercontent.com/56068905/187845684-cdd536ee-8f67-492b-b406-2d17fa351674.png">
 
-6. Optional Chaining
+6. Opsiyonel Zincirleme
 
-In chaining logic it is really a nil check control.
+Zincirleme mantığında bu gerçekten bir sıfır kontrol kontrolüdür.
 
 <img width="588" alt="Screen Shot 2022-09-01 at 09 18 41" src="https://user-images.githubusercontent.com/56068905/187845641-14964169-6232-4151-923c-63e33a33fc00.png">
