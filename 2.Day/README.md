@@ -1,29 +1,28 @@
 # Day 2
 
-1. Array as Int, Double etc. You can store a variable. With Enumerated you can store it with indexes.
+1. Dizi olarak Int, Double vb. Bir değişken saklayabilirsiniz. Numaralandırılmış ile dizinlerle saklayabilirsiniz.
 
-2. In Sets, events are just like Arrays. However, all characters must be unique.
+2. Kümelerde olaylar Diziler gibidir. Ancak, tüm karakterler benzersiz olmalıdır.
 
-3. Tuple is a little different. You cannot add or remove data from a tuple. They are fixed. You cannot change its type. It only allows you to access and read the index. Or it allows you to make a change of that type.
+3. Tuple biraz farklı. Bir yerden veri ekleyemez veya kaldıramazsınız. Onlar sabittir. Türünü değiştiremezsiniz. Yalnızca dizine erişmenize ve okumanıza izin verir. Veya bu türden bir değişiklik yapmanızı sağlar.
 
 <img width="502" alt="image" src="https://user-images.githubusercontent.com/56068905/187490600-50e925d2-a987-4b5d-9e80-f2f33941b463.png">
 
-
 # Array vs Set vs Tuple
 
-If you have constant data and you want to use it all the time you should use **Tuple**.
+Sabit verileriniz varsa ve bunları sürekli kullanmak istiyorsanız **Tuple** kullanmalısınız.
 
-If you want to include non-repeating expressions in an array, you should use **Set**
+Bir diziye tekrarlanmayan ifadeler eklemek istiyorsanız, **Set** kullanmalısınız.
 
-If the order of the items added matters and you can add or remove things as you wish. you should use **Array**
+Eklenen öğelerin sırası önemliyse ve istediğiniz gibi şeyler ekleyebilir veya çıkarabilirsiniz. **Array** kullanmalısınız
 
 <img width="651" alt="image" src="https://user-images.githubusercontent.com/56068905/187491539-31cf528a-5d3d-4770-8eff-17532c883a0b.png">
 
-4. Using Dictionary is similar to using Map in Flutter \ Dart.
+4. Sözlük kullanmak, Flutter\Dart'ta Harita kullanmaya benzer.
 
 <img width="950" alt="image" src="https://user-images.githubusercontent.com/56068905/187493994-205314f7-efd2-42b7-b38e-9375b409dac7.png">
 
-5. Arrays, Sets, and Dictionaries are called Collections. If you want to create a Collections of the desired type without giving a format, you have to type it.
+5. Diziler, Kümeler ve Sözlükler Koleksiyonlar olarak adlandırılır. Format vermeden istediğiniz türde bir Koleksiyon oluşturmak istiyorsanız, onu yazmanız gerekir.
 
 <img width="370" alt="image" src="https://user-images.githubusercontent.com/56068905/187494964-30d86bfe-7123-47da-bffd-8e41db9889f5.png">
 
