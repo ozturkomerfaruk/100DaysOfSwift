@@ -1,8 +1,8 @@
-# Day 9
+# 9. Gün
 
 1. Yapıdaki değişkenlere varsayılan değerler verilmesi. Bunu **init** ile yapıyoruz.
 
-2. Struct'taki değişkene init parametresinin atanması. öz. bunun için kullanılıyor. Bu Dart dil sınıfı budur. kullanımla aynı.
+2. Struct'taki değişkene init parametresinin atanması. self. bunun için kullanılıyor. Bu Dart dil sınıfı budur. kullanımla aynı.
 
 3. Ama ya belirli bir kişi için her zaman aile ağacına ihtiyacımız olmasaydı? Lazy anahtar sözcüğünü familyTree özelliğine eklersek, Swift FamilyTree yapısını yalnızca ilk erişildiğinde oluşturacaktır:
 
