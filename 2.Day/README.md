@@ -18,7 +18,7 @@ Eklenen öğelerin sırası önemliyse ve istediğiniz gibi şeyler ekleyebilir 
 
 <img width="651" alt="image" src="https://user-images.githubusercontent.com/56068905/187491539-31cf528a-5d3d-4770-8eff-17532c883a0b.png">
 
-4. Sözlük kullanmak, Flutter\Dart'ta Harita kullanmaya benzer.
+4. Sözlük kullanmak, Flutter\Dart'ta Map kullanmaya benzer.
 
 <img width="950" alt="image" src="https://user-images.githubusercontent.com/56068905/187493994-205314f7-efd2-42b7-b38e-9375b409dac7.png">
 
