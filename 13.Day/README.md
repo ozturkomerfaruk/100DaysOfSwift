@@ -1,6 +1,6 @@
-# Day 13
+# 13. Gün
 
-General Repetition.
+Genel Tekrar 1
 
 1. Variables and constants
 
