@@ -1,10 +1,10 @@
 # Day 11
 
-1. Protocols are a way of defining what properties and methods something should have.
+1. Protokoller, bir şeyin hangi özelliklere ve yöntemlere sahip olması gerektiğini tanımlamanın bir yoludur.
 
-The protocol is written. A struct is then created, and then a function can be written.
+Protokol yazılır. Daha sonra bir yapı oluşturulur ve ardından bir fonksiyon yazılabilir.
 
-2. Protocols can also be inherited. Unlike Classes, more than one can be inherited at the same time.
+2. Protokoller de miras alınabilir. Sınıflardan farklı olarak, aynı anda birden fazla miras alınabilir.
 
 <img width="522" alt="image" src="https://user-images.githubusercontent.com/56068905/187790802-9e614d59-94a5-4352-8037-541c280deead.png">
 
@@ -18,6 +18,6 @@ The protocol is written. A struct is then created, and then a function can be wr
 
 5. Protocol Oriented Programming
 
-Protocol written. The extension has been written. Afterwards, an object was created by establishing the Struct. The established struct was created by inheriting it.
+Protokol yazıldı. Uzantı yazıldı. Daha sonra Struct kurularak bir nesne oluşturulmuştur. Yerleşik yapı, miras alınarak oluşturulmuştur.
 
 <img width="725" alt="image" src="https://user-images.githubusercontent.com/56068905/187793086-5372e4bc-345d-4329-9b96-7554d9bbdd50.png">
