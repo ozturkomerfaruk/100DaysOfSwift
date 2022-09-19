@@ -4,9 +4,9 @@
 
 2. Property Observers
 
-**didSet** is used to detect every time the property changes and print it to the screen.
+**didSet**, özelliğin her değiştiğinde algılamak ve ekrana yazdırmak için kullanılır.
 
-You can also use **willSet** to take action before a property changes, but that is rarely used.
+Bir özellik değişmeden önce harekete geçmek için **willSet**'i de kullanabilirsiniz, ancak bu nadiren kullanılır.
 
 <img width="727" alt="Screen Shot 2022-08-31 at 11 46 24" src="https://user-images.githubusercontent.com/56068905/187637748-2b83fc76-7311-4b6a-b737-658c2bd8ac0d.png">
 
@@ -16,7 +16,7 @@ You can also use **willSet** to take action before a property changes, but that 
 
 4. Mutating Method
 
-Swift doesn't like to change variables much either. She usually tries to keep them steady. If you want to change something in the method, you have to declare it. The solution for this is quite simple.
+Swift de değişkenleri değiştirmeyi pek sevmez. Genellikle onları sabit tutmaya çalışır. Yöntemde bir şeyi değiştirmek istiyorsanız, bunu bildirmeniz gerekir. Bunun çözümü oldukça basittir.
 
 <img width="397" alt="image" src="https://user-images.githubusercontent.com/56068905/187639795-6af9dfba-d951-4c27-8de2-a6bd556607a2.png">
 
