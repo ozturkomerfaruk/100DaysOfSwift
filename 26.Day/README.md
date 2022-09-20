@@ -1,4 +1,4 @@
-# Day 26
+# 26. Gün
 
 [25. Gün Oldukça Önemli](https://github.com/ozturkomerfaruk/100DaysOfSwift/blob/master/25.Day)
 
