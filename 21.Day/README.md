@@ -1,14 +1,14 @@
-# 21. Day
+# 21. Gün
 
-The Second project has finished.
+2. Proje tamamlandı.
 
-The project was completed within the scope of the topics discussed between the 19th and 21nd days.
+19. ve 21. günler arasında tartışılan konular kapsamında proje tamamlandı.
 
-## Topics
+## Konular
 
 UIButton, CALayer, IBAction
 
-## Screen Recording
+## Ekran Videosu
 
 https://user-images.githubusercontent.com/56068905/188284191-3b67b200-bfec-4aa9-94ec-6fc541a47bab.mp4
 
