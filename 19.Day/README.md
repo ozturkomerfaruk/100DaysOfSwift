@@ -1,4 +1,4 @@
-# Day 19
+# 19. Gün
 
 3 tane buton ekledik. Bu butonları Auto Layout kapsamında, her iphone için geçerli bir tasarım nasıl yapılır, bunu öğrendik.
 
