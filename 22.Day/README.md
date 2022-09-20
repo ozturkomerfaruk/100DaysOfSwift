@@ -1,4 +1,4 @@
-# Day 22
+# 22. Gün
 
 #Selector kullanılmasının sebebi Objective-C tarafından çağrılmak zorunda olunduğudur.
 
