@@ -1,4 +1,4 @@
-# Day 25
+# 25. Gün
 
 ### **decidePolicyFor** Olayını Tam Anlamadım. Salladım burada bir şeyler
 
