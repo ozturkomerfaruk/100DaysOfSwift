@@ -1,4 +1,4 @@
-# Day 24
+# 24. Gün
 
 # Video Çıktı
 
