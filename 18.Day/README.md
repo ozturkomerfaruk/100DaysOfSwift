@@ -1,14 +1,14 @@
-# Day 18
+# 18. Gün
 
-The First project has finished.
+İlk proje tamamlandı.
 
-The project was completed within the scope of the topics discussed between the 16th and 18th days.
+16-18. günler arasında tartışılan konular kapsamında proje tamamlandı.
 
-## Topics
+## Konular
 
 View controllers, Storyboard, FileManager
 
-## Screen Recording
+## Ekran Kayıtı
 
 https://user-images.githubusercontent.com/56068905/188143412-550f55ff-1e84-4460-9dcd-91a8397ff865.mp4
 
