@@ -1,4 +1,5 @@
-# Day 23
+# 23.Gün
+
 # Milestone: Projects 1-3
 
 ***Önemli Bir Not:*** Açıkçası pek istediğim gibi yapamadım. Liste ekranında ki bayrakların boyutları çok kötü oldu. Bunlar nasıl ayarlanıyor, ne yazık ki bilmiyorum. Projeyi elimden geldiğince yapmaya çalıştım ama maalesef noksanlıklar canımı çok sıktı. Yardım etmek isteyen lütfen iletisim@ozturkomerfaruk.com adresine mail yazsın ya da burada Issues kısmına not olarak yazsın.
