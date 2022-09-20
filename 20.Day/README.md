@@ -1,4 +1,4 @@
-# Day 20
+# 20. Gün
 
 İlk olarak 3 tane butonun IBAction özellikleri eklendi. Bu özellikler fonksiyona kod üzerine bir triggerlama özelliği kazandırmaktadır.
 
