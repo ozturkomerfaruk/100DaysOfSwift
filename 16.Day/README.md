@@ -1,12 +1,12 @@
 # Day 16
 
-1. We are building our first project.
+1. İlk projemizi inşa ediyoruz.
 
-The basic building blocks of UIKit have been learned.
+UIKit'in temel yapı taşları öğrenildi.
 
-2. Accessing assets with FileManager.
+2. FileManager ile varlıklara erişim.
 
-var pictures: [String]() We create an Array in the form and throw it into it.
+var resimler: [String]() Formda bir Array oluşturup içine atıyoruz.
 
 <img width="539" alt="image" src="https://user-images.githubusercontent.com/56068905/188127880-257489c8-ecca-4de5-9859-afc0d2f2cdf0.png">
 
@@ -14,6 +14,6 @@ var pictures: [String]() We create an Array in the form and throw it into it.
 
 <img width="703" alt="image" src="https://user-images.githubusercontent.com/56068905/188128219-e003bce3-f84a-438b-8fb5-1903bfef5364.png">
 
-While the top gives the number, it accesses the index on each row at the bottom.
+Üstteki sayıyı verirken, alttaki her satırdaki dizine erişir.
 
-We access each row named "Picture" with tableView.dequeueReusableCell.
+"Picture" adlı her satıra tableView.dequeueReusableCell ile erişiyoruz.
