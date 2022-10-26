@@ -11,3 +11,13 @@ Eğer emin değilseniz o zaman ilk **weak** ile başlayın.
 <img width="694" alt="image" src="https://user-images.githubusercontent.com/56068905/197698601-19c077ec-49a2-462b-938e-4d8f97188a27.png">
 
 <img width="694" alt="image" src="https://user-images.githubusercontent.com/56068905/197698657-339a2e92-acf6-41cb-86d3-440ce485834b.png">
+
+Kodlama aşamasına geçmeden önce TableViewController eklendi ve Cell kısmına id olarak WordCell verdim.
+
+<img width="729" alt="image" src="https://user-images.githubusercontent.com/56068905/197973834-f367491a-1684-4c80-89e8-3e827ce9bb59.png">
+
+Bundle.main.url ile txt den veri okuma işlemini gerçekleştirdim ve components seperatedBy kullanarak \n olan her yeri görerek txt yi parse lama işlemini gerçekleştirdim. Gelen veri optional dır. try kullanarak yazdım.
+
+<img width="806" alt="image" src="https://user-images.githubusercontent.com/56068905/197974622-380659fa-ce99-4441-8e3b-41d8b3370c58.png">
+
+Daha sonra klasik TableView işlemlerini yazdım.
