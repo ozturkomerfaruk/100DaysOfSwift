@@ -21,3 +21,13 @@ Bundle.main.url ile txt den veri okuma işlemini gerçekleştirdim ve components
 <img width="806" alt="image" src="https://user-images.githubusercontent.com/56068905/197974622-380659fa-ce99-4441-8e3b-41d8b3370c58.png">
 
 Daha sonra klasik TableView işlemlerini yazdım.
+
+navigationItem eklemek için:
+
+<img width="771" alt="image" src="https://user-images.githubusercontent.com/56068905/198124802-f3b90966-08e4-4c96-a62f-7bccda6dee6b.png">
+
+<img width="742" alt="image" src="https://user-images.githubusercontent.com/56068905/198124847-af5459f9-dd15-43bb-9ac9-d340a45c1699.png">
+
+<img width="268" alt="image" src="https://user-images.githubusercontent.com/56068905/198125467-126cc0aa-10d2-4925-aebc-71acc42b355c.png">
+
+<img width="190" alt="image" src="https://user-images.githubusercontent.com/56068905/198125513-29350bb3-620d-407f-ab40-a564c1b611bd.png">
