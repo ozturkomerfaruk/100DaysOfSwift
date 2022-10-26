@@ -25,3 +25,6 @@ Not: String ve String.UTF8View, String.UTF16View vb. içindeki sayım farklıdı
 Son olarak, her bir kontrolün Else durumları yazıldı.
 
 <img width="772" alt="image" src="https://user-images.githubusercontent.com/56068905/198133555-42014cff-c15e-43a8-a702-a82382c7ec23.png">
+
+<img width="321" alt="image" src="https://user-images.githubusercontent.com/56068905/198133966-cfc35d5a-863b-48e4-860f-ae16798c5bef.png">
+
