@@ -21,3 +21,7 @@ rangeOfMisspelledWord(in:) öğesinin çağrılması, yanlış yazımın nerede 
 <img width="812" alt="image" src="https://user-images.githubusercontent.com/56068905/198131791-6c7c380d-b5d8-4702-9d08-dd1e74624053.png">
 
 Not: String ve String.UTF8View, String.UTF16View vb. içindeki sayım farklıdır çünkü hepsi koleksiyon olmalarına rağmen depolama şekilleri farklıdır. Dize onları bir karakter koleksiyonunda saklar, bu nedenle koleksiyondaki her öğe bir karakteri temsil eder. Ancak, diğer kodlamalarda, bu kodlamanın kod birimlerinin bir koleksiyonunda depolanırlar. Bazı özel karakterler (ñ gibi) iki birimde saklanmalıdır. ñ için, UTF8'de 0xC3 0xB1 iken UTF16'da 0x00F1'dir, yani UTF8 kodlamasında UTF16'dan bir öğe daha olduğunu görebilirsiniz. Temel Dize'yi kullanmadığınız sürece, sayım ile karakter sayısını doğru bir şekilde alamazsınız.
+
+Son olarak, her bir kontrolün Else durumları yazıldı.
+
+<img width="772" alt="image" src="https://user-images.githubusercontent.com/56068905/198133555-42014cff-c15e-43a8-a702-a82382c7ec23.png">
