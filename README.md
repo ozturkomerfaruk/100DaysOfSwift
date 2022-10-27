@@ -25,4 +25,7 @@ Proje Konuları/ Konular                                                        
 |---
 [Proje 4](26.Day) - *Easy Browser* <br/>(with challenges)                                         <br/><sub> WKWebView, Action sheets, UIToolbar, UIProgressView                   </sub> | ![Simulator Screen Shot - iPhone 1](https://user-images.githubusercontent.com/56068905/188885286-1f5595df-3d60-4716-93da-ba24c2e38131.png) ![Simulator Screen Shot - iPhone 1-2](https://user-images.githubusercontent.com/56068905/188885316-80b8d51a-979c-4513-a9e7-8ed6b913242f.png)
 |---
+[Proje 5](29.Day) - *Word Scramble* <br/>(with challenges)                                         <br/><sub> Reading from disk, UIAlertController, IndexPath                  </sub> | ![Simulator Screen Shot - iPhone 14 Pro Max - 2022-10-27 at 19 52 05](https://user-images.githubusercontent.com/56068905/198359589-8cd9de02-d4ac-4e2c-829e-2539b2d2bf91.png)
 
+[Proje 5](29.Day) - *Word Scramble* <br/>(with challenges)                                         <br/><sub> Reading from disk, UIAlertController, IndexPath                  </sub> | ![Simulator Screen Shot - iPhone 14 Pro Max - 2022-10-27 at 19 57 33](https://user-images.githubusercontent.com/56068905/198359630-bba41ba2-2026-407c-a7e1-1d3d379f4757.png) ![Simulator Screen Shot - iPhone 14 Pro Max - 2022-10-27 at 19 52 05](https://user-images.githubusercontent.com/56068905/198359684-324ba1de-2921-4a76-8de9-d50674c9d085.png)
+|---
