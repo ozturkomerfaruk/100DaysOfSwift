@@ -27,3 +27,32 @@ Aspect Radio kısıtlaması, ezilmeyi bir kez ve herkes için çözer: Bu, Otoma
 <img width="400" height="800" alt="asd" src="https://user-images.githubusercontent.com/56068905/198726511-5f504920-05f1-4b02-a9d4-169ed0fd8346.png">
 
 Günün sonunda böyle bir olay çıkıyor.
+
+
+# İkinci Proje | Programatic olarak Constrait ekleme. Önemli !!
+
+<img width="557" alt="image" src="https://user-images.githubusercontent.com/56068905/198729794-0e214cdc-55b2-4f7a-a117-e8b77653aeef.png">
+
+Tüm bu kodlar, her biri benzersiz metin ve benzersiz bir arka plan rengine sahip beş UILabel nesnesi oluşturur. Beş görünümün tümü daha sonra view.addSubview() kullanılarak görünüm denetleyicimize ait görünüme eklenir.
+
+translatesAutoresizingMaskIntoConstraints kullanmamızın sebebi: varsayılan olarak iOS, bir görünümün boyutuna ve konumuna göre sizin için Otomatik Düzen kısıtlamaları oluşturur. Bunu elle yapacağız, bu yüzden bu özelliği devre dışı bırakmamız gerekiyor.
+
+etiketlerimiz varsayılan konumlarına (ekranın sol üst köşesine) yerleştirilir ve her birinde sizeToFit() işlevini çağırdığımız için tümü içeriklerine uyacak şekilde boyutlandırılır.
+
+Bu gereksiz görünebilir, ancak biraz daha bekleyin: biraz Visual Format Language! (VFL)
+
+<img width="780" alt="image" src="https://user-images.githubusercontent.com/56068905/198730403-fad71f9d-8667-4e0a-a36f-6045500a7e91.png">
+
+view.addConstraints(): bu, görünüm denetleyicimizin görünümüne bir dizi kısıtlama ekler. Bu dizi, tek bir kısıtlama yerine kullanılır, çünkü VFL aynı anda birden çok kısıtlama üretebilir.
+
+NSLayoutConstraint.constraints(withVisualFormat:): VFL'yi bir dizi kısıtlamaya dönüştüren Otomatik Düzen yöntemidir. Birçok parametreyi kabul eder, ancak önemli olanlar ilk ve sonuncusudur.
+
+options parametresi için [] (boş bir dizi) ve metrics parametresi için nil iletiyoruz. VFL'nin anlamını özelleştirmek için bu seçenekleri kullanabilirsiniz, ancak şimdilik umursamıyoruz.
+
+"H:|[label1]|" Gördüğünüz gibi, bu bir dizedir ve bu dize, yerleşimin nasıl görünmesini istediğimizi açıklar. Bu VFL, Otomatik Düzen kısıtlamalarına dönüştürülür ve ardından görünüme eklenir.
+
+H: parçaları, yatay bir yerleşim tanımladığımız anlamına gelir; Yakında dikey bir düzen yapacağız. The pipe symbol |, "görünümün kenarı" anlamına gelir. Bu kısıtlamaları, görünüm denetleyicimizin içindeki ana görünüme ekliyoruz, bu nedenle bu, etkin bir şekilde "görünüm denetleyicisinin kenarı" anlamına gelir. Son olarak, "label1'i buraya koy" demenin görsel bir yolu olan [label1] var. Köşeli ayraçların [ and ] görünümünün kenarları olduğunu hayal edin.
+
+<img width="686" alt="image" src="https://user-images.githubusercontent.com/56068905/198731017-71785033-2c17-4fd7-bca0-2ea2c00e1b38.png">
+
+Bu, VFL kısmı dışında önceki beş ile aynıdır. Bu sefer V: belirtiyoruz, yani bu kısıtlamalar dikey. Ve VFL içinde birden fazla görüşümüz var, bu nedenle çok sayıda kısıtlama oluşturulacak. Bu sefer VFL'deki yeni şey, "boşluk" anlamına gelen - sembolüdür. Varsayılan olarak 10 puandır, ancak bunu özelleştirebilirsiniz.
