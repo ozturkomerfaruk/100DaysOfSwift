@@ -6,7 +6,8 @@
 
 <img width="300" src="https://user-images.githubusercontent.com/56068905/198898351-ecbb1d04-eef6-4929-9cce-4c978216a6f7.png"> <img width="300" src="https://user-images.githubusercontent.com/56068905/198898414-7cbd4c58-2108-4f19-b728-5a13549fe3d4.png">
 
-##declaration
+## declaration
+
 ```var shoppingList = [String]()```
 
 ## viewDidLoad
