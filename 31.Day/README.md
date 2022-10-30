@@ -51,3 +51,11 @@ herbirinin yüksekliği
 Üstten ve aşağıdan ne kadar yükseklik verilebilmesi durumu. safeArea Flutter mantığı ile aynı.
 
 En sonda da label'i previous'a atıyoruz. 
+
+# 6. Proje Tamamlandı
+
+<img width="250" height="500" src="https://user-images.githubusercontent.com/56068905/198893287-37819577-ff3a-4aeb-8c37-90ac2cdacaaa.png">
+
+<img width="500" src="https://user-images.githubusercontent.com/56068905/198893308-6ef056a2-df89-4b2d-ab52-4dd15ca18063.png">
+
+
