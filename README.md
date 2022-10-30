@@ -29,3 +29,5 @@ Proje Konuları/ Konular                                                        
 |---
 [Proje 6](31.Day) - *Auto Layout* <br/>(with challenges)                                         <br/><sub> Auto Layout, Constraints, Visual Format Language                  </sub> | <img width="120" height="260" alt="Screen Shot 2022-10-26 at 23 44 56" src="https://user-images.githubusercontent.com/56068905/198893287-37819577-ff3a-4aeb-8c37-90ac2cdacaaa.png"> <img width="320" alt="Screen shot" src="https://user-images.githubusercontent.com/56068905/198893308-6ef056a2-df89-4b2d-ab52-4dd15ca18063.png">
 |---
+[Milestone: Projects 4-6](32.Day) - *Shopping List* <br/>(with challenges)                                         <br/>                    | <img width="120" height="260" src="https://user-images.githubusercontent.com/56068905/198898220-7882da65-15ae-43b4-a86d-0b7d45a6a434.png"> <img width="120" height="260" src="https://user-images.githubusercontent.com/56068905/198898252-6279a54b-2d3a-4b1a-88c2-0ad35e0cdfaf.png"> 
+|---
