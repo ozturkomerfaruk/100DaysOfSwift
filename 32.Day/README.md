@@ -2,6 +2,13 @@
 
 # 3. Consolidation projesi & 6. Proje
 
+## Gif
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/56068905/198898666-8d39efee-7a50-4bec-8499-b565f0bb8bfb.gif)
+
+
+## Ekran Görüntüleri
+
 <img width="300" src="https://user-images.githubusercontent.com/56068905/198898220-7882da65-15ae-43b4-a86d-0b7d45a6a434.png"> <img width="300" src="https://user-images.githubusercontent.com/56068905/198898252-6279a54b-2d3a-4b1a-88c2-0ad35e0cdfaf.png"> 
 
 <img width="300" src="https://user-images.githubusercontent.com/56068905/198898351-ecbb1d04-eef6-4929-9cce-4c978216a6f7.png"> <img width="300" src="https://user-images.githubusercontent.com/56068905/198898414-7cbd4c58-2108-4f19-b728-5a13549fe3d4.png">
