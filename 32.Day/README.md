@@ -30,7 +30,7 @@
         navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareShopList))
     }
 ```
-
+  
 ## addShopList
 
 ```
