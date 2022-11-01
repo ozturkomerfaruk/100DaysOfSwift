@@ -59,3 +59,4 @@ En sonda da label'i previous'a atıyoruz.
 <img width="500" src="https://user-images.githubusercontent.com/56068905/198893308-6ef056a2-df89-4b2d-ab52-4dd15ca18063.png">
 
 
+  
