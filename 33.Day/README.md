@@ -48,4 +48,4 @@ func parse(json: Data) {
 }
 ```
 
-Harici bir kütüphane kullanmadan parse işlemi gerçekleşti.
+Harici bir kütüphane kullanmadan parse işlemi gerçekleşti.  
