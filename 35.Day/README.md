@@ -8,11 +8,10 @@ Bir de html kodu Webview ile direk çözümleyebiliyorsun
 
 <img width="695" alt="image" src="https://user-images.githubusercontent.com/56068905/208940559-bc7eccb9-ed74-4341-8cf1-97d1100ee7a1.png">
 
-
-
 https://user-images.githubusercontent.com/56068905/208941436-21bf687a-0591-4110-a259-9d8b1e06674c.mov
 
+Veriler online bir JSON linkinden parse edilerek yapılmaktadır. Linkler:
 
+[https://www.hackingwithswift.com/samples/petitions-1.json](https://www.hackingwithswift.com/samples/petitions-1.json)
 
-
-
+[https://www.hackingwithswift.com/samples/petitions-2.json](https://www.hackingwithswift.com/samples/petitions-2.json)
