@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var levelLabel: UILabel!
     var cluesLabel: UILabel!
     var answersLabel: UILabel!
     var currentAnswer: UITextField!
@@ -23,7 +24,8 @@ class ViewController: UIViewController {
     var solutions = [String]()
 
     var score = 0
-    var level = 1
+    var punishment = 0
+    var level = 2
     
     
     override func loadView() {
@@ -37,18 +39,27 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
        super.viewDidLoad()
         
-        
+        view.backgroundColor = .white
     }
 
     private func configureTool() {
         view = UIView()
-        view.backgroundColor = .red
+        view.backgroundColor = .clear
+        
+        levelLabel = UILabel()
+        levelLabel.translatesAutoresizingMaskIntoConstraints = false
+        levelLabel.font = UIFont.systemFont(ofSize: 30)
+        levelLabel.textAlignment = .right
+        levelLabel.text = "Level: \(level)"
+        levelLabel.textColor = .black
+        view.addSubview(levelLabel)
+        
         scoreLabel = UILabel()
         scoreLabel.translatesAutoresizingMaskIntoConstraints = false
-        scoreLabel.font = UIFont.systemFont(ofSize: 24)
+        scoreLabel.font = UIFont.systemFont(ofSize: 30)
         scoreLabel.textAlignment = .right
         scoreLabel.text = "Score: 0"
-        scoreLabel.textColor = .cyan
+        scoreLabel.textColor = .black
         view.addSubview(scoreLabel)
         
         cluesLabel = UILabel()
@@ -56,7 +67,7 @@ class ViewController: UIViewController {
         cluesLabel.font = UIFont.systemFont(ofSize: 30)
         cluesLabel.text = "CLUES"
         cluesLabel.numberOfLines = 0
-        cluesLabel.backgroundColor = .systemPink
+        cluesLabel.backgroundColor = .clear
         cluesLabel.setContentHuggingPriority(UILayoutPriority(1), for: .vertical)
         view.addSubview(cluesLabel)
 
@@ -66,7 +77,7 @@ class ViewController: UIViewController {
         answersLabel.text = "ANSWERS"
         answersLabel.numberOfLines = 0
         answersLabel.textAlignment = .right
-        answersLabel.backgroundColor = .blue
+        answersLabel.backgroundColor = .clear
         answersLabel.setContentHuggingPriority(UILayoutPriority(1), for: .vertical)
         view.addSubview(answersLabel)
         
@@ -97,7 +108,8 @@ class ViewController: UIViewController {
         buttonsView = UIView()
         buttonsView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(buttonsView)
-        buttonsView.backgroundColor = .green
+        buttonsView.layer.borderWidth = 1
+        buttonsView.layer.backgroundColor = UIColor.white.cgColor
         
         let width = 150
         let height = 80
@@ -105,7 +117,7 @@ class ViewController: UIViewController {
         for row in 0..<4 {
             for col in 0..<5 {
                 let letterButton = UIButton(type: .system)
-                letterButton.titleLabel?.font = UIFont.systemFont(ofSize: 36)
+                letterButton.titleLabel?.font = UIFont.systemFont(ofSize: 40)
                 letterButton.setTitle("WWW", for: .normal)
                 let frame = CGRect(x: col * width, y: row * height, width: width, height: height)
                 letterButton.frame = frame
@@ -118,6 +130,9 @@ class ViewController: UIViewController {
     
     private func configureContraints() {
         NSLayoutConstraint.activate([
+            levelLabel.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor, constant: 50),
+            levelLabel.leftAnchor.constraint(equalTo: view.layoutMarginsGuide.leftAnchor, constant: 200),
+            
             scoreLabel.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor, constant: 50),
             scoreLabel.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor, constant: -200),
             
@@ -143,7 +158,7 @@ class ViewController: UIViewController {
             clear.heightAnchor.constraint(equalToConstant: 44),
             
             buttonsView.widthAnchor.constraint(equalToConstant: 750),
-            buttonsView.heightAnchor.constraint(equalToConstant: 500),
+            buttonsView.heightAnchor.constraint(equalToConstant: 400),
             buttonsView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             buttonsView.topAnchor.constraint(equalTo: submit.bottomAnchor, constant: 20),
             buttonsView.bottomAnchor.constraint(equalTo: view.layoutMarginsGuide.bottomAnchor, constant: -20)
@@ -179,20 +194,52 @@ class ViewController: UIViewController {
             
             currentAnswer.text = ""
             score += 1
+            scoreLabel.text = String(score)
             
             if score % 7 == 0 {
                 let ac = UIAlertController(title: "Well done!", message: "Are you ready for the next level?", preferredStyle: .alert)
                 ac.addAction(UIAlertAction(title: "Let's go!", style: .default, handler: levelUp))
                 present(ac, animated: true)
             }
+        } else {
+            //Challange 2
+            punishment += 1
+            if punishment == 3 {
+                let alert = UIAlertController(title: "Punishment", message: "you will be back to the beginning of the game", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Click", style: .default, handler: begining))
+                self.present(alert, animated: true, completion: nil)
+            } else {
+                let alert = UIAlertController(title: "Warning! \(punishment) Times", message: "You Entered Wrong!!!", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "Click", style: .default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+            }
+            
         }
+    }
+    
+    func begining(action: UIAlertAction) {
+        solutions.removeAll(keepingCapacity: true)
+        level = 1
+        levelLabel.text = "Level \(level)"
+        configureButtons()
+        currentAnswer.text = ""
+        for btn in letterButtons {
+            btn.isHidden = false
+        }
+        score = 0
+        scoreLabel.text = String(score)
     }
     
     func levelUp(action: UIAlertAction) {
         level += 1
+        levelLabel.text = "Level \(level)"
         solutions.removeAll(keepingCapacity: true)
 
-        loadView()
+        configureButtons()
+        currentAnswer.text = ""
+        for btn in letterButtons {
+            btn.isHidden = false
+        }
 
         for btn in letterButtons {
             btn.isHidden = false
