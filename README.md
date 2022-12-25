@@ -33,6 +33,6 @@ Proje Konuları/ Konular                                                        
 |---
 [Proje 7](35.Day) - *Whitehouse Petitions* <br/>(with challenges)                                         <br/><sub> UITabBarController, JSON, Data, Codable                  </sub>                   | <img width="120" height="260" src="https://user-images.githubusercontent.com/56068905/208942597-f15fec81-e598-46ad-9081-e0fd92638437.png"> <img width="120" height="260" src="https://user-images.githubusercontent.com/56068905/208942605-851e74e4-bd35-4105-8653-12758b016a88.png"> 
 |---
-[Proje 8](38.Day) - *Swifty Words* <br/>(with challenges)                                         <br/><sub> UI in code, Text alignment, Layout Margins, UIFont                  </sub>                   | <img width="250" height="260" src="https://user-images.githubusercontent.com/56068905/209464264-4c22c6f7-572f-4990-b325-82468eef8995.png"> 
+[Proje 8](38.Day) - *Swifty Words* <br/>(with challenges)                                         <br/><sub> UI in code, Text alignment, Layout Margins, UIFont                  </sub>                   | <img width="400" height="260" src="https://user-images.githubusercontent.com/56068905/209464264-4c22c6f7-572f-4990-b325-82468eef8995.png"> 
 |---
 
