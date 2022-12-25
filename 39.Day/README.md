@@ -24,3 +24,6 @@ NOT: Kuyrukları QoS değerini belirterek oluşturabiliriz. Ancak kuyrukların Q
 
 ## Bu yapılara gerek kalmadan şunlarda kullanılabilir: 
 
+<img width="825" alt="image" src="https://user-images.githubusercontent.com/56068905/209465362-0a3d73ed-c335-4fb9-9e3e-96cc3366de8e.png">
+
+<img width="825" alt="image" src="https://user-images.githubusercontent.com/56068905/209465367-52d53866-07c8-4c49-9323-8d6bab96a867.png">
