@@ -9,13 +9,16 @@ import UIKit
 
 final class ViewController: UIViewController {
     private let letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+    private var errorIndex = 0
+    private var hearthCount = 9
+    private var count = 0
     @IBOutlet private weak var imageView: UIImageView!
     @IBOutlet private weak var activeLettersView: UIView!
     @IBOutlet private weak var allLettersView: UIView!
     
     private var activeLetterLabel: UILabel!
     private var activeLetters = ""
-    private var usedLetters = ["o","s"]
+    private var usedLetters = [String]()
     
     private var wordList = [String]()
     private var wordIndex = 0
@@ -26,19 +29,18 @@ final class ViewController: UIViewController {
         super.loadView()
         fetchWords()
         
-        activeLetters = setWordAsGame(word: wordList[wordIndex], usedLetters: usedLetters)
+        
         
         configureView()
         constraintView()
-        
-        activeLettersView.layer.borderWidth = 1
-        allLettersView.layer.borderWidth = 2
-        activeLettersView.backgroundColor = .white
-        allLettersView.backgroundColor = .white
     }
     
     @objc func letterTapped(_ sender: UIButton) {
+        guard let buttonTitle = sender.titleLabel?.text else { return }
+        usedLetters.append(buttonTitle)
         
+        activeLetters = setWordAsGame(word: wordList[wordIndex], usedLetters: usedLetters)
+        activeLetterLabel.text = activeLetters.uppercased()
     }
 }
 
@@ -70,12 +72,18 @@ extension ViewController {
         
         activeLetterLabel = UILabel()
         activeLetterLabel.translatesAutoresizingMaskIntoConstraints = false
+        for _ in 0..<wordList[wordIndex].count {
+            activeLetters += "_ "
+        }
         activeLetterLabel.text = activeLetters.uppercased()
         activeLetterLabel.font = UIFont.systemFont(ofSize: 30)
         activeLetterLabel.textAlignment = .center
         activeLettersView.addSubview(activeLetterLabel)
         
-        
+        activeLettersView.layer.borderWidth = 1
+        allLettersView.layer.borderWidth = 2
+        activeLettersView.backgroundColor = .white
+        allLettersView.backgroundColor = .white
         
         for i in 0..<6 {
             justConfigureButtons(index: i, flag: 0, letterIndex: i)
@@ -116,17 +124,48 @@ extension ViewController {
     
     private func setWordAsGame(word: String, usedLetters: [String]) -> String {
         var promptWord = ""
-        
-        for letter in word {
+        for letter in word.uppercased() {
             let strLetter = String(letter)
             
             if usedLetters.contains(strLetter) {
-                promptWord += strLetter
+                promptWord += (strLetter + " ")
             } else {
-                promptWord += "?"
+                promptWord += "? "
+                
             }
         }
+        setImageAsGame(word: word, usedLetters: usedLetters)
+        
         return promptWord
     }
     
+    private func setImageAsGame(word: String, usedLetters: [String]) {
+        for letter in word.uppercased() {
+            
+            print(word.uppercased())
+            if !usedLetters.contains(String(letter)) {
+                errorIndex += 1
+                hearthCount -= 1
+                print(String(errorIndex) + " errorIndex")
+                print(String(hearthCount) + " hearthCount")
+                imageView.image = UIImage(named:"pic\(errorIndex)")
+                if count >= 8 {
+                    print("iasdkl")
+                    if hearthCount == 0 {
+                        imageView.image = UIImage(named:"gameover")
+                        //En Baştan
+                        errorIndex = 0
+                    }
+                }
+                count += 1
+                print(String(count) + " Count")
+                break
+            } else {
+                
+                count += 1
+                print(count)
+                break
+            }
+        }
+    }
 }
