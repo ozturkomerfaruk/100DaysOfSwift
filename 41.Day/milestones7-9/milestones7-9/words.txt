@@ -1,1 +1,1 @@
-word, letter, room
+milestones, word, letter, room
