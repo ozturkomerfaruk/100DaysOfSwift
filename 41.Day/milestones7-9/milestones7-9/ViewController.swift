@@ -9,9 +9,9 @@ import UIKit
 
 final class ViewController: UIViewController {
     private let letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+    private var errorLetter = ""
     private var errorIndex = 0
     private var hearthCount = 9
-    private var count = 0
     @IBOutlet private weak var imageView: UIImageView!
     @IBOutlet private weak var activeLettersView: UIView!
     @IBOutlet private weak var allLettersView: UIView!
@@ -131,7 +131,6 @@ extension ViewController {
                 promptWord += (strLetter + " ")
             } else {
                 promptWord += "? "
-                
             }
         }
         setImageAsGame(word: word, usedLetters: usedLetters)
@@ -141,31 +140,43 @@ extension ViewController {
     
     private func setImageAsGame(word: String, usedLetters: [String]) {
         for letter in word.uppercased() {
-            
-            print(word.uppercased())
             if !usedLetters.contains(String(letter)) {
+                print(usedLetters)
                 errorIndex += 1
                 hearthCount -= 1
                 print(String(errorIndex) + " errorIndex")
                 print(String(hearthCount) + " hearthCount")
                 imageView.image = UIImage(named:"pic\(errorIndex)")
-                if count >= 8 {
-                    print("iasdkl")
+                if errorIndex == 9 {
                     if hearthCount == 0 {
                         imageView.image = UIImage(named:"gameover")
                         //En Baştan
                         errorIndex = 0
+                        hearthCount = 9
                     }
                 }
-                count += 1
-                print(String(count) + " Count")
                 break
             } else {
-                
-                count += 1
-                print(count)
                 break
             }
         }
+        
+        var result = ""
+        for i in usedLetters {
+            result += i
+        }
+        
+        if word.contains(result) {
+           print(result)
+        } else {
+            print("s")
+        }
+        
+        if word.uppercased() == result.uppercased() {
+            imageView.image = UIImage(named:"youwin")
+        }
+        print(result.uppercased())
+        print(errorLetter.uppercased() + " error")
+        print(String(hearthCount) + " hearthCount")
     }
 }
