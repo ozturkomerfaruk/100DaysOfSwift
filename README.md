@@ -37,3 +37,5 @@ Proje Konuları/ Konular                                                        
 |---
 [Proje 9](40.Day) - *Grand Central Dispatch * <br/>(with challenges)                                         <br/><sub> Grand Central Dispatch, PerformSelector                 </sub>                   | <img width="120" height="260" src="https://user-images.githubusercontent.com/56068905/188148592-bcdb0efc-478c-49c0-8177-d8c20f8d3802.png"> <img width="120" height="260" src="https://user-images.githubusercontent.com/56068905/208942597-f15fec81-e598-46ad-9081-e0fd92638437.png">
 |---
+[Milestone: Projects 7-9](41.Day) - *Hangman* <br/>(with challenges)                                         <br/>                    | <img width="120" height="260" src="https://user-images.githubusercontent.com/56068905/209639989-b67d5786-5644-4253-a2a7-be08ccd39ed6.png"> <img width="120" height="260" src="https://user-images.githubusercontent.com/56068905/209640075-34b04572-4cc3-439e-bf03-bea74053074a.png"> <img width="120" height="260" src="https://user-images.githubusercontent.com/56068905/209640129-7cce458a-f437-4d31-8c8e-254eb5c7440a.png"> 
+|---
