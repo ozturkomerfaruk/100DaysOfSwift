@@ -12,3 +12,4 @@ Alt çizgi koyabilirsiniz. Bu, kodu etkilemez ve yazmanızı kolaylaştırır. A
 4. Sabit değişkenler için terim
 
 <img width="548" alt="Screen Shot 2022-08-30 at 19 02 09" src="https://user-images.githubusercontent.com/56068905/187485508-f2cfcf40-452d-4b3e-92c4-a1c6567c26d2.png">
+ 
